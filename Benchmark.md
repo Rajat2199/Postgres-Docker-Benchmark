@@ -4,7 +4,8 @@
 2. Initialize postgres with data to benchmark using the following command: 
 
      pgbench -h localhost -p 5432 -U postgres -i -s 100 mydb 
-   
+     
+   ![](https://github.com/Rajat2199/Postgres-Docker-Benchmark/blob/main/Postgres_Initialise.png)
 This will create sample database mydb and different tables inside the same.
 Total tuples created: 1,00,00,000
 
