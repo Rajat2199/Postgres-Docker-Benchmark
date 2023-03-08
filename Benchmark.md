@@ -31,3 +31,12 @@ Iterations:
     pgbench -h 127.0.0.1 -U postgres -c 100 -j 10 -T 60 mydb
     pgbench -h 127.0.0.1 -U postgres -c 10 -j 2 -T 60 mydb  
 
+## Benchmark Results
+
+![](https://github.com/Rajat2199/Postgres-Docker-Benchmark/blob/main/Benchmark_results.png)
+
+
+![](https://github.com/Rajat2199/Postgres-Docker-Benchmark/blob/main/Benchmark_results2.png)
+
+
+![](https://github.com/Rajat2199/Postgres-Docker-Benchmark/blob/main/Benchmark_results3.png)
