@@ -1,0 +1,16 @@
+//Docker-compose file to start a postgres container having postgres version 12.11
+version: "3.5"
+
+services:
+ postgres:
+    image: postgres:12.11
+    container_name: postgres
+    restart: always
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: <YOUR PG USER>
+      POSTGRES_PASSWORD: <YOUR PG PASSWORD>
+    network_mode: host
+    ports:
+     - "5430:5432" // No need to specify if using network as host
